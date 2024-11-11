@@ -6,7 +6,7 @@
 # Semester/Year: Fall 2024
 # Brief Description of the assignment: Collaborate using Github to execute an API call using JSON
 # Brief Description of what this module does: Execute an api call, print something interesting from the end point JSON code
-# Citations: Stack overflow
+# Citations: Stack overflow, Reddit
 # Anything else that's relevant: N/A
 
 #json 
