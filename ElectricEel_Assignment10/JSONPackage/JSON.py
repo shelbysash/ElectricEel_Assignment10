@@ -17,7 +17,7 @@ import csv
 #should be architected as a class
 class NewsAPI: 
     """
-    
+    Interact with NewsApI server to fetch titles and write to csv file
     """
     
     def __init__(self): #constructor
@@ -26,6 +26,7 @@ class NewsAPI:
     def APIUtilities(self): 
         #newsapi.org
         
+        #submit to api server
         response = requests.get('https://newsapi.org/v2/everything?domains=wsj.com&apiKey=9325db089c73469280e232711f5afbce')
         json_string = response.content
         self.parsed_json = json.loads(json_string) # Now we have a python dictionary -- parsing
