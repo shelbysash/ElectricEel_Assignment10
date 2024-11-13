@@ -13,3 +13,14 @@
 from JSONPackage.JSON import *
 
 #main py
+
+def main():
+    #instance of NewsAPI
+    News_Api = NewsAPI()
+   
+    # Call APIUtilities & write to csv
+    News_Api.APIUtilities()
+    News_Api.write_to_csv()
+
+if __name__ == "__main__":
+    main()
